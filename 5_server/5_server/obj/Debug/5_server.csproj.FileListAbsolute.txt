@@ -1,0 +1,13 @@
+E:\VS 2013 Projects\5_server\5_server\bin\Debug\5_server.exe.config
+E:\VS 2013 Projects\5_server\5_server\bin\Debug\5_server.exe
+E:\VS 2013 Projects\5_server\5_server\bin\Debug\5_server.pdb
+E:\VS 2013 Projects\5_server\5_server\obj\Debug\5_server.csprojResolveAssemblyReference.cache
+E:\VS 2013 Projects\5_server\5_server\obj\Debug\5_server.exe
+E:\VS 2013 Projects\5_server\5_server\obj\Debug\5_server.pdb
+E:\VS 2013 Projects\5_server\5_server\bin\Debug\MySql.Data.dll
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_server\5_server\bin\Debug\5_server.exe.config
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_server\5_server\obj\Debug\5_server.exe
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_server\5_server\obj\Debug\5_server.pdb
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_server\5_server\bin\Debug\5_server.exe
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_server\5_server\bin\Debug\5_server.pdb
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_server\5_server\obj\Debug\5_server.csprojResolveAssemblyReference.cache

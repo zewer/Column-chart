@@ -1,0 +1,30 @@
+E:\VS 2013 Projects\5_client\5_client\bin\Debug\5_client.exe.config
+E:\VS 2013 Projects\5_client\5_client\bin\Debug\5_client.exe
+E:\VS 2013 Projects\5_client\5_client\bin\Debug\5_client.pdb
+E:\VS 2013 Projects\5_client\5_client\obj\Debug\5_client.csprojResolveAssemblyReference.cache
+E:\VS 2013 Projects\5_client\5_client\obj\Debug\_5_client.Form1.resources
+E:\VS 2013 Projects\5_client\5_client\obj\Debug\_5_client.Form2.resources
+E:\VS 2013 Projects\5_client\5_client\obj\Debug\_5_client.Properties.Resources.resources
+E:\VS 2013 Projects\5_client\5_client\obj\Debug\5_client.csproj.GenerateResource.Cache
+E:\VS 2013 Projects\5_client\5_client\obj\Debug\5_client.exe
+E:\VS 2013 Projects\5_client\5_client\obj\Debug\5_client.pdb
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\bin\Debug\5_client.exe.config
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\obj\Debug\5_client.exe
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\obj\Debug\5_client.pdb
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\bin\Debug\5_client.exe
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\bin\Debug\5_client.pdb
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\obj\Debug\5_client.csprojResolveAssemblyReference.cache
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\obj\Debug\_5_client.Form1.resources
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\obj\Debug\_5_client.Form2.resources
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\obj\Debug\_5_client.Properties.Resources.resources
+E:\Диплом 6 курс\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\obj\Debug\5_client.csproj.GenerateResource.Cache
+C:\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\bin\Debug\5_client.exe.config
+C:\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\obj\Debug\5_client.exe
+C:\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\obj\Debug\5_client.pdb
+C:\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\obj\Debug\5_client.csprojResolveAssemblyReference.cache
+C:\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\obj\Debug\_5_client.Form1.resources
+C:\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\obj\Debug\_5_client.Form2.resources
+C:\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\obj\Debug\_5_client.Properties.Resources.resources
+C:\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\obj\Debug\5_client.csproj.GenerateResource.Cache
+C:\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\bin\Debug\5_client.exe
+C:\Записка Кутаєв Сергій\ПКМ КР Сергій\5_client\5_client\bin\Debug\5_client.pdb

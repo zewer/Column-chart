@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="777248e4-a642-4413-ad15-1a24247f73b9" name="UMLUseCaseDiagram1" linkedPackageId="e7236d7e-0400-41f2-968a-0cc204ba0799" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="c0b6c7a7-a13f-4666-af4f-a1766ed1c0f3">
+      <profileInstance Id="818f1301-4171-40bb-8cf4-d3c467dc9336" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="6e1d58b2-f0cc-47e7-aac6-5d57eba73397">
+      <profileInstance Id="2c308b1f-33ee-417e-8628-dd8f6e417c6b" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="22317973-361f-4896-a733-7f6c92d1f599" name="Користувач" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="961bc5ff-2ca1-4bd5-b4f3-a432239bef5f" />
+        <targetEnds>
+          <association Id="ef2eb4b7-52bb-489e-ab8c-5f1a90085ffc" isDerived="false" sourceEndRoleName="Користувач" targetEndRoleName="UseCase1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9690babf-46fa-4e60-8152-7ce14331d669" LastKnownName="Вибір потрібних даних для візуалізації" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a2d2dc8f-fa1b-492b-9de3-e93fa4730b95" name="Користувач" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="91fe5755-9e49-4769-9f8c-762e002ee6e1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="56140d79-afb7-4da6-9710-71d66b596cf8" name="UseCase1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9d453f9f-1443-4f56-b1ad-8badca54e82a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="712f393e-7aa2-4b91-a371-c5613f271d96" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="df4632c8-441e-420e-a280-28ba5dc24507" name="Клієнт-сервер" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <ownedCommentsInternal>
+          <comment Id="1cb50f42-7925-440f-861d-ec065b6d6dc1">
+            <elementDefinition Id="9402c765-553d-46d9-ae90-a87e25c877a8" />
+            <body>Підключення</body>
+          </comment>
+        </ownedCommentsInternal>
+        <elementDefinition Id="b3b284fa-6429-4083-b376-335eb12d65f8" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="9690babf-46fa-4e60-8152-7ce14331d669" name="Вибір потрібних даних для візуалізації" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d55e48f2-516f-4044-9fff-186e4767e65d" />
+        <suppliersInternal>
+          <dependency Id="d399ae26-ad3f-45a7-b736-f518eb802c66">
+            <useCaseMoniker Id="196d109a-c688-4b9a-9453-5683d1253957" LastKnownName="Сервер" />
+            <elementDefinition Id="bc5a591b-4582-430b-b147-e2d07a9e8878" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association Id="432cc152-f5dd-472a-886a-83b324cab4a1" isDerived="false" sourceEndRoleName="Вибір потрібних даних для візуалізації" targetEndRoleName="Візуалізація" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a1d30c8d-f38e-43d8-99e3-656db329f5d5" LastKnownName="Візуалізація" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a51484b9-3ea9-4c31-af3c-561c06cf87da" name="Вибір потрібних даних для візуалізації" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="20bc292d-9141-4993-8353-4a9812ea2391" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f0fe2102-f220-472b-b1b8-2f618ad41b78" name="Візуалізація" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="11c544f2-e3b1-4204-8197-8fd159de5ac6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3c61103c-4a4c-41a7-a9cc-94e25a504c24" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="df4632c8-441e-420e-a280-28ba5dc24507" LastKnownName="Клієнт-сервер" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="196d109a-c688-4b9a-9453-5683d1253957" name="Сервер" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0cf3a309-66ee-444d-bdea-ee1828c16414" />
+        <targetEnds>
+          <association Id="1e356127-adee-4766-813b-09df662be52b" isDerived="false" sourceEndRoleName="Сервер" targetEndRoleName="Вибір даних        з БД" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c430b4ea-adc3-467f-8923-670ab6e75a33" LastKnownName="Вибір даних        з БД" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c40c0565-a2ae-4910-9811-e537d78d8892" name="Сервер" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="583116fd-c1e0-489b-87c2-41fbcb78e435" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b8e984bf-57b9-4112-ae77-d9d28f28e85c" name="Вибір даних        з БД" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="548c9b34-1e7a-46f3-88b9-e82a648bbf28" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1d6eeeb4-d541-46ac-818e-7b34837e19f6" />
+          </association>
+          <association Id="7422b653-d7ef-465c-9edd-2d9a95ab2a42" isDerived="false" sourceEndRoleName="Сервер" targetEndRoleName="Вибір потрібних даних для візуалізації" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9690babf-46fa-4e60-8152-7ce14331d669" LastKnownName="Вибір потрібних даних для візуалізації" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0fab6f00-3acd-4f85-9b1f-5ec199dbc85e" name="Сервер" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5960c121-8f23-457d-80e8-4dd58b7d8dcf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3b64ee96-c825-4904-9757-3cbe53438cd8" name="Вибір потрібних даних для візуалізації" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bc37d308-75d4-4c30-9271-050af3fdfc92" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7c8edd8e-5708-4127-a251-40dde95be2a6" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="df4632c8-441e-420e-a280-28ba5dc24507" LastKnownName="Клієнт-сервер" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="a1d30c8d-f38e-43d8-99e3-656db329f5d5" name="Візуалізація" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c92065bf-d12c-4f80-9e6e-7d23333e993c" />
+        <subjects>
+          <subsystemMoniker Id="df4632c8-441e-420e-a280-28ba5dc24507" LastKnownName="Клієнт-сервер" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="c430b4ea-adc3-467f-8923-670ab6e75a33" name="Вибір даних        з БД" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="19eac87a-afdd-4206-81e0-59fc24c06fa1" />
+        <targetEnds>
+          <association Id="93ab59c2-944f-4d0f-b2e0-defda58912ef" isDerived="false" sourceEndRoleName="Вибір даних        з БД" targetEndRoleName="Сервер" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="196d109a-c688-4b9a-9453-5683d1253957" LastKnownName="Сервер" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7b3b33f2-0d52-487a-b6b5-572b94bcbabb" name="Вибір даних        з БД" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e3c97707-2f42-4ef2-a615-28c9c59a6054" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4bcd72df-d340-46b0-a745-52fff72f232d" name="Сервер" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d9a3b978-bb98-4314-8a4a-9224bd4366f6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8f57e444-7799-4782-a27d-9ed958c91819" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="df4632c8-441e-420e-a280-28ba5dc24507" LastKnownName="Клієнт-сервер" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="e7236d7e-0400-41f2-968a-0cc204ba0799" name="ModelingProject1">
+    <elementDefinition Id="41bf4373-cd65-4193-b946-c6d14ced502f" />
+  </package>
+</useCaseModelRoot>

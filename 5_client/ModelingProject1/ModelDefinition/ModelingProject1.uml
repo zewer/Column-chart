@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="41bf4373-cd65-4193-b946-c6d14ced502f"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="9402c765-553d-46d9-ae90-a87e25c877a8">
+      <body>Підключення</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="961bc5ff-2ca1-4bd5-b4f3-a432239bef5f"
+        name="Користувач"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="712f393e-7aa2-4b91-a371-c5613f271d96"
+            isDerived="false"
+            sourceEndRoleName="Користувач"
+            targetEndRoleName="UseCase1"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d55e48f2-516f-4044-9fff-186e4767e65d"
+              LastKnownName="Вибір потрібних даних для візуалізації"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="91fe5755-9e49-4769-9f8c-762e002ee6e1"
+                  name="Користувач"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9d453f9f-1443-4f56-b1ad-8badca54e82a"
+                  name="UseCase1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="b3b284fa-6429-4083-b376-335eb12d65f8"
+        name="Клієнт-сервер"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d55e48f2-516f-4044-9fff-186e4767e65d"
+        name="Вибір потрібних даних для візуалізації"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="bc5a591b-4582-430b-b147-e2d07a9e8878">
+            <useCaseMoniker
+              Id="0cf3a309-66ee-444d-bdea-ee1828c16414"
+              LastKnownName="Сервер"
+              LastKnownLocation="ModelingProject1.uml" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="3c61103c-4a4c-41a7-a9cc-94e25a504c24"
+            isDerived="false"
+            sourceEndRoleName="Вибір потрібних даних для візуалізації"
+            targetEndRoleName="Візуалізація"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c92065bf-d12c-4f80-9e6e-7d23333e993c"
+              LastKnownName="Візуалізація"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="20bc292d-9141-4993-8353-4a9812ea2391"
+                  name="Вибір потрібних даних для візуалізації"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="11c544f2-e3b1-4204-8197-8fd159de5ac6"
+                  name="Візуалізація"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="b3b284fa-6429-4083-b376-335eb12d65f8"
+            LastKnownName="Клієнт-сервер"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0cf3a309-66ee-444d-bdea-ee1828c16414"
+        name="Сервер"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="1d6eeeb4-d541-46ac-818e-7b34837e19f6"
+            isDerived="false"
+            sourceEndRoleName="Сервер"
+            targetEndRoleName="Вибір даних        з БД"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="19eac87a-afdd-4206-81e0-59fc24c06fa1"
+              LastKnownName="Вибір даних        з БД"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="583116fd-c1e0-489b-87c2-41fbcb78e435"
+                  name="Сервер"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="548c9b34-1e7a-46f3-88b9-e82a648bbf28"
+                  name="Вибір даних        з БД"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7c8edd8e-5708-4127-a251-40dde95be2a6"
+            isDerived="false"
+            sourceEndRoleName="Сервер"
+            targetEndRoleName="Вибір потрібних даних для візуалізації"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d55e48f2-516f-4044-9fff-186e4767e65d"
+              LastKnownName="Вибір потрібних даних для візуалізації"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5960c121-8f23-457d-80e8-4dd58b7d8dcf"
+                  name="Сервер"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bc37d308-75d4-4c30-9271-050af3fdfc92"
+                  name="Вибір потрібних даних для візуалізації"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="b3b284fa-6429-4083-b376-335eb12d65f8"
+            LastKnownName="Клієнт-сервер"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c92065bf-d12c-4f80-9e6e-7d23333e993c"
+        name="Візуалізація"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b3b284fa-6429-4083-b376-335eb12d65f8"
+            LastKnownName="Клієнт-сервер"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="19eac87a-afdd-4206-81e0-59fc24c06fa1"
+        name="Вибір даних        з БД"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="8f57e444-7799-4782-a27d-9ed958c91819"
+            isDerived="false"
+            sourceEndRoleName="Вибір даних        з БД"
+            targetEndRoleName="Сервер"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0cf3a309-66ee-444d-bdea-ee1828c16414"
+              LastKnownName="Сервер"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e3c97707-2f42-4ef2-a615-28c9c59a6054"
+                  name="Вибір даних        з БД"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d9a3b978-bb98-4314-8a4a-9224bd4366f6"
+                  name="Сервер"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="b3b284fa-6429-4083-b376-335eb12d65f8"
+            LastKnownName="Клієнт-сервер"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
